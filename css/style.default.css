@@ -227,6 +227,7 @@ nav.navbar a.nav-link:hover {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  color: white;
 }
 
 .about-section .progress {
@@ -257,6 +258,7 @@ nav.navbar a.nav-link:hover {
 ul > li {
   display: inline;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 /*
