@@ -579,40 +579,6 @@ ul > li {
 /*
 *
 * =====================
-* CUSTOEMRS
-* =====================
-*
-*/
-.customers-section img {
-  padding: 10px;
-  max-width: 80px;
-}
-
-/*
-*
-* =====================
-* CONTACT
-* =====================
-*
-*/
-.form-control {
-  margin-bottom: 20px;
-}
-
-/*
-*
-* =====================
-* MAP
-* =====================
-*
-*/
-#map {
-  height: 400px;
-}
-
-/*
-*
-* =====================
 * FOOTER
 * =====================
 *
@@ -668,36 +634,6 @@ footer.main-footer p.template-bootstrapious {
 
 footer.main-footer p.template-bootstrapious a {
   color: #999;
-}
-
-/*
-
-=====================
-STYLE SWITCHER FOR DEMO
-=====================
-
-*/
-#style-switch-button {
-  position: fixed;
-  top: 120px;
-  left: 0px;
-  border-radius: 0;
-  z-index: 2;
-}
-
-#style-switch {
-  width: 300px;
-  padding: 20px;
-  position: fixed;
-  top: 160px;
-  left: 0;
-  background: #fff;
-  border: solid 1px #ced4da;
-  z-index: 2000;
-}
-
-#style-switch h4 {
-  color: #495057;
 }
 
 /* =========================================
