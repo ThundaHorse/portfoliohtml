@@ -73,7 +73,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.2;
-  color: #555;
+  color: rgb(167, 167, 167);
   margin-top: 20px;
   letter-spacing: 0;
 }
@@ -218,6 +218,9 @@ nav.navbar a.nav-link:hover {
 * =====================
 *
 */
+.about-section {
+  height: 100vh;
+}
 .about-section .skill-item {
   margin-bottom: 20px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -308,7 +311,7 @@ ul > li {
 .testimonials .item .testimonial::after {
   display: block;
   clear: both;
-  content: '';
+  content: "";
 }
 
 .testimonials .item .testimonial .text {
@@ -408,7 +411,7 @@ ul > li {
 }
 
 .statistics-section h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .statistics-section .counter {
@@ -432,7 +435,7 @@ ul > li {
 #filter li {
   display: inline-block;
   list-style-type: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   margin-bottom: 30px;
   border-top: solid 1px #4fbfa8;
   border-bottom: solid 1px #4fbfa8;
@@ -615,11 +618,10 @@ ul > li {
 *
 */
 footer.main-footer {
-  padding: 60px 0;
-  background: #222;
+  height: 30%;
+  background: url("../img/papyrus-dark.png");
 }
-
-footer.main-footer p.social a {
+k- footer.main-footer p.social a {
   margin-left: 10px;
   color: #fff;
   display: inline-block;
@@ -651,18 +653,17 @@ footer.main-footer p.social a.email {
 }
 
 footer.main-footer p {
-  margin: 0;
+  margin-top: 5px;
   color: #eee;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 0.9rem;
 }
 
 footer.main-footer p.template-bootstrapious {
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 10px;
   color: #eee;
   font-size: 0.9rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 footer.main-footer p.template-bootstrapious a {
@@ -1531,7 +1532,7 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1563,7 +1564,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.2;
   color: inherit;
@@ -1656,7 +1657,7 @@ mark,
 }
 
 .blockquote-footer::before {
-  content: '\2014 \00A0';
+  content: "\2014 \00A0";
 }
 
 .text-primary {
