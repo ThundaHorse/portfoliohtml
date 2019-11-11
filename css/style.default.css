@@ -219,7 +219,7 @@ nav.navbar a.nav-link:hover {
 *
 */
 .about-section {
-  height: 100vh;
+  /* height: 100vh; */
 }
 .about-section .skill-item {
   margin-bottom: 20px;
